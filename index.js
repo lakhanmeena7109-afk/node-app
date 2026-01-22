@@ -13,6 +13,11 @@ app.get("/health",(req,res)=>{
     massage:"I am ok And Running"
    })
 })
+app.get("/",(req,res)=>{
+    res.status(200).send({
+    massage:"I am ok And Running"
+   })
+})
 
 app.listen(port,()=>{console.log(`App running on Port${port}`)})
 
