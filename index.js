@@ -15,7 +15,7 @@ app.get("/health",(req,res)=>{
 })
 app.get("/",(req,res)=>{
     res.status(200).send({
-    massage:"I am ok And Running"
+    massage:"I am ok And Running aappp"
    })
 })
 
