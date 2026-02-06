@@ -18,6 +18,11 @@ app.get("/",(req,res)=>{
     massage:"I am ok And Running aappp"
    })
 })
+app.get("/ok",(req,res)=>{
+    res.status(200).send({
+    massage:"hello docker"
+   })
+})
 
 app.listen(port,()=>{console.log(`App running on Port${port}`)})
 
